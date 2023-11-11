@@ -55,12 +55,12 @@ p{
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     body {
-        padding: 0 50px; /* Añade más margen a los costados */
-        max-width: 90%; 
+        padding: 0 50px; /* Ajusta el padding a tu preferencia */
+        max-width: 100%; /* Modificado para ocupar el ancho completo del viewport */
     }
     .text-container {
+        text-align: center; /* Centra el texto en el contenedor */
         font-size: 1.1rem; /* Ajustar el tamaño de la fuente para dispositivos móviles */
-        text-align: center;
     }
     section h1, section p {
         font-size: 1.1rem; /* Ajustar el tamaño de fuente para h1 y p en dispositivos móviles */
