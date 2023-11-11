@@ -60,6 +60,7 @@ p{
     }
     .text-container {
         font-size: 1.1rem; /* Ajustar el tamaño de la fuente para dispositivos móviles */
+        text-align: center;
     }
     section h1, section p {
         font-size: 1.1rem; /* Ajustar el tamaño de fuente para h1 y p en dispositivos móviles */
