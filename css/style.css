@@ -1,0 +1,72 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDFDFD;
+    color: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que ocupe el 100% del viewport height */
+    text-align: center; /* Alineación del texto */
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+section {
+    position: relative; /* Añade posicionamiento relativo */
+    max-width: 575px;
+    font size: 3rem;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    font-size: 1.2rem; /* Ajusta el tamaño de fuente para los h1 */
+    font-weight: normal; /* Elimina negrita si está siendo aplicada */
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.ursulapokorny{
+    color: #FF0000;
+}
+
+.mail {
+    color: #FF0000; /* Cambia el color a rojo (puedes usar el color que desees) */
+    text-decoration: none;
+}
+
+.mail:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0 50px; /* Añade más margen a los costados */
+        max-width: 90%; 
+    }
+    .text-container {
+        font-size: 1.1rem; /* Ajustar el tamaño de la fuente para dispositivos móviles */
+    }
+    section h1, section p {
+        font-size: 1.1rem; /* Ajustar el tamaño de fuente para h1 y p en dispositivos móviles */
+    }
+    .mail {
+        font-size: 1.2rem; /* Ajustar el tamaño del correo electrónico en dispositivos móviles */
+    }
+
+    
+}
